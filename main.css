@@ -1,0 +1,487 @@
+body,html,h1,h2,h3,h4,h5,h6,ul,p {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	width: 980px;
+}
+.header {
+	background-color: #34393e;
+	height: 60px;
+}
+.logo {
+	float: left;
+	color: white;
+	padding-top: 22px;
+}
+.header-menu ul {
+	margin-left: 130px;
+	display: inline-block;
+}
+.header-menu ul li {
+	
+	padding-top: 22px;
+	display: inline-block;
+	margin-left: 25px;
+}
+.header-menu ul li a {
+	text-decoration: none;
+	color: #b6b8ba;
+	font-size: 12.6px;
+	transition: all 0.5s ease;
+}
+.header-menu ul li a:hover {
+background-color: #494d52;
+padding: 20px 10px 20px 10px;
+border-top: 5px solid #f26e50;
+}
+.login-form {
+	float: right;
+	padding-top: 22px;
+	
+}
+.login-form a {
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	font-size: 13px;
+	background-color: #3aa1be;
+	color: white;
+	padding: 10px 16px;
+	border-radius: 3px;
+}
+.login-form a:hover {
+	background-color: #24282b;
+	
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-content {
+	display: none!important;
+	position: absolute;
+	z-index: 9999;
+	right: 27px;
+	background-color: #494d52;
+	top: 59px;
+	left: -131px;
+	width: 200px;
+}
+.dropdown-content li {
+	display: block !important;
+}
+.dropdown-content li a {
+padding: 0 !important;
+border: 0px solid transparent !important;
+}	
+.dropdown-content li:hover {
+	background-color: #5a5e62 !important;
+}
+.dropdown:hover .dropdown-content {
+	display: block !important;
+	
+	
+}
+	
+.mySlides {
+	display:none
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor: pointer;
+	text-align :center;
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0;
+	}
+	.slider-holder {
+		background-image: url("https://bestwebsoft.com/demo_theme/real_estate/images/templates/heading.jpg");
+		min-height: 300px;
+		position: relative;
+	}
+	.slider-holder p {
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		padding-top: 117px;
+		padding-left: 62%;
+	}
+	.slider-info {
+		margin: 0 auto;
+		padding-top: 200px;
+			
+	}
+	.bullets {
+		list-style-type: none;
+        width:100%;
+		margin-left: 103%;
+	}
+	.bullets li {
+	    background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        width:12px;
+        height:12px;
+        cursor: pointer;
+    }
+	.buttons-slider {
+		text-align: center;
+		width: 1200px;
+		margin-top: 43px;
+	}
+	.buttons-slider a{
+		background-color: rgba(0,0,0,0.2);
+		color: #fff;
+		font-size: 14px;
+		padding: 15px 24px;
+		text-decoration: none;
+	}
+	.plus {
+		float: right;
+	}
+	.clearfix {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+		
+	}
+	.form-wrapper {
+		box-shadow: 0 0 5px #666;
+	}
+	.form {
+		
+		padding-top: 30px;
+		margin-left: 452px;
+		width: 1200px;
+	}
+	.form input {
+		background-color: #dfdfdf;
+		height: 46px;
+		width: 622px;
+		border: 3px #d9d9d9 solid;
+		
+	}
+	input:before {
+		content: "->";
+		/*background: url('https://bestwebsoft.com/demo_theme/real_estate/images/input_bg.jpg');*/
+		z-index: 9999;
+		
+		
+		top: 10px;
+		left: 10px;
+		display: inline-block;
+		position: relative;
+	}
+	
+	.form .property {
+		width: 330px;
+	}
+	input, select, textarea {
+		color: #858282;
+		font-size: 15px;
+		padding-left: 5px;
+		
+	}
+	select {
+		width: 258px;
+		height: 54px;
+		background-color: #dfdfdf;
+		border: 3px #d9d9d9 solid;
+		
+	}
+	.select-menus {
+		display: block;
+		margin-top: 25px;
+		padding-bottom: 25px;
+	}
+	.select-menus select {
+		width: 200px;
+		margin-right: 5px;
+		float: left;
+	}
+	input[type="submit"] {
+		background: url("https://bestwebsoft.com/demo_theme/real_estate/images/submit_search.png");
+		background-color: #f29580;
+		background-repeat: no-repeat;
+	}
+	input[type="submit"] {
+		height: 56px;
+		width: 69px;
+		margin-left: 10px;
+	}
+	.container {
+		width: 1200px;
+		margin: auto;
+	}
+	.learn-more-wrapper {
+		background-color: rgb(243, 243, 243);
+		min-height: 200px;
+	}
+	.learn-more {
+		padding-top: 50px;
+		text-align: center;
+	}
+	.learn-more h2 {
+		color: #34393D;
+		font-weight: 400;
+	}
+	.learn-more p {
+		font-size: 17px;
+		padding-top: 8px;
+		color: #777b7e;
+		padding-bottom: 30px;
+	}
+	.learn-more a {
+		color: #fff;
+		background-color: #f26e50;
+		text-decoration: none;
+		padding: 14px 17px;
+		font-size: 13px;
+	}
+	
+	.items-wrapper {
+		background-color: rgb(234, 235, 236);
+	}
+	.left-item {
+		margin-left: 179px;
+		
+	}
+	.right-item {
+		float: right;
+		margin-right: 178px;
+	}
+	.items {
+		padding-top: 20px;
+	}
+	.articles {
+		margin-top: 13px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.article {
+		background-color: #fff;
+		max-width: 220px;
+		height: auto;
+		border-radius: 12px;
+		display: inline-block;
+		margin-right: 15px;
+	}
+	
+	.article img {
+		width: 200px;
+		height: 110px;
+		padding: 10px;
+		
+	}
+	.article h3 {
+	padding: 8px;
+	color: #34393e;
+	font-size: 17px;
+	font-size: 700;
+	
+	}
+	.article ul li {
+		list-style-type: none;
+		padding-left: 14px;
+		color: #656464;
+		  line-height: 1.4;
+	}
+	.article ul li a {
+		color: #4b5157;
+	}
+	.home-info {
+		background-color: #f3f3f3;
+		width: 200px;
+		text-align: left;
+		margin-left: 10px;
+	}
+	.price-home {
+		padding: 6px;
+	}
+	.sale-button {
+		
+		color: white;
+		background-color: #3aa1be;
+		padding: 3px 13px;
+		font-size: 12px;
+		text-decoration: none;
+		border-radius: 4px;
+		margin-left: 5px;
+	}
+	.price-home span {
+		margin-left: 10px;
+	}
+	
+	.plus-button {
+		color: white;
+		background-color: #f26e50;
+		text-decoration: none;
+		padding: 0 5px;
+		margin-left: 5px;
+	}
+	.post-wrapper {
+		margin-top: 20px;
+	}
+	.posts-body {
+	background-color: rgb(243, 243, 243);	
+	    padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.posts {
+		width: 600px;
+		margin :20px auto;
+		float: left;
+		margin-left: 25%;
+	}
+	.posts a{
+		color: rgb(242, 110, 80);
+		text-decoration: none;
+	}
+	.posts img {
+		width: 60px;
+		height:60px;
+		float: left;
+		padding-right: 20px;
+	}
+	.posts i {
+		line-height: 2.3;
+	}
+	.comments-wrapper {
+		width: 250px;
+		float: left;
+		
+		margin: 68px 85px;
+	}
+	.comments {
+		color: #6c737a;
+		background-color: white;
+		font-style: italic;
+		line-height: 1.4;
+		padding: 12px;
+		margin-top: 20px;
+	}
+	.comments strong {
+		color: #333131;
+	}
+	.section {
+		background-color: #FFF;
+		width: 900px;
+		margin: 0 auto;
+		border-left: #f26e50 4px solid;
+		padding: 20px 13px 35px 20px;
+		margin-bottom: 30px;
+		height: 60px;
+		line-height: 1.4;
+	}
+	
+	.section h3 {
+		font-size: 24px;
+		color: #34393e;
+	}
+	.section p {
+		color: #777b7e;
+	}
+	.section-left {
+		float: left;
+		width: 700px;
+	}
+	.section-button {
+		float: right;
+		margin-top: 20px;
+	}
+	.section-button a {
+		background-color: #f26e50;
+		color: white;
+		font-size: 12px;
+		text-decoration: none;
+		padding: 12px 18px;
+	}
+	
+	.contact {
+		width: 900px;
+		margin: 20px auto;
+		min-height: 150px;
+	}
+	.contact-box {
+		max-width: 206px;
+		float: left;
+		margin-right: 40px;
+	}
+	.contact-box span {
+	font-size: 20px;
+	font-weight: bold;
+	color: #34393e;
+	}
+	.contact-box ul,  .contact-box p{
+		margin-top: 15px;
+		color: #777b7e;
+	}
+	.contact-box li {
+		list-style-type: none;
+		line-height: 1.5;
+	}
+	.contact-box a {
+		color: #34393e;
+		text-decoration: none;
+		
+	}
+	.contact-box a:hover {
+		color: #f26e50;
+	}
+	.contact-box input[type="text"] {
+		width: 140px;
+		height: 32px;
+		border: 3px solid #d9d9d9;
+		margin-top: 10px;
+	}
+	.contact-box input[type="submit"] {
+		background: url("https://bestwebsoft.com/demo_theme/real_estate/images/submit.png") no-repeat;
+		background-color: #f26e50;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		border :none;
+	}
+	.footer-image {
+		position: relative;
+		transition :all 1s ease;
+	}
+	.footer-image img{
+		margin-top: 20px;
+	}
+	.footer-image-hover {
+		display: none;
+		background-color: rgba(0,0,0,0.6);
+		position: absolute;
+		width: 480px;
+		height: 350px;
+		top: 0px;
+		left: 393px;
+		transition :all 1s ease;
+	}
+	.footer-image-hover hr {
+		width: 50px;
+	}
+	
+	.footer-image-hover h2 {
+		margin-top: 140px;
+	}
+	.footer-image-hover h2, 
+	.footer-image-hover span{
+		text-align: center;
+		color: #fff;
+		display: block;
+		vertical-align: middle;
+	}
+	.footer-image:hover .footer-image-hover {
+		display: block;
+		top: 163px;
+		left: 393px;
+	}
